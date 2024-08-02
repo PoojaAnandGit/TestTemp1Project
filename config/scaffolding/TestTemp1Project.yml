@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestTemp1Project
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: SIQA_Origin
+  gitServerName: testInternalGit
+  gitUrl: https://github.webmethods.io/shih
+  gitUsername: poan
+  gitBranch: main

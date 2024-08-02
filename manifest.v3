@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="SIQA_Origin">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">31-07-2024 07:14:10 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-31T07:14:20.3129157Z</value>
+  <value name="lastUpdated">2024-08-02T04:58:54.2297059Z</value>
+  <value name="wmProjectId">fl04543fab28d419f546b964</value>
+  <value name="creator">UTFlow Administrator</value>
 </Values>
